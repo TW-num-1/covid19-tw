@@ -125,7 +125,8 @@
       "男",
       "50",
       "2020-02-04",
-      "2020-02-04"
+      "2020-02-04",
+      "武漢"
     ],
     [
       "https://www.cdc.gov.tw/Bulletin/Detail/NXDgwOfx8WDoXHrXHPIzAw?typeid=9",
@@ -133,7 +134,8 @@
       "男",
       "40",
       "2020-02-04",
-      "2020-02-06"
+      "2020-02-06",
+      "武漢"
     ],
     [
       "https://www.cdc.gov.tw/Bulletin/Detail/NXDgwOfx8WDoXHrXHPIzAw?typeid=9",
@@ -142,7 +144,7 @@
       "20",
       "2020-02-04",
       "2020-02-06",
-      "義大利"
+      "武漢"
     ],
     [
       "https://www.cdc.gov.tw/Bulletin/Detail/IvbkRyP8-l32MqhrMakCBw?typeid=9",
@@ -162,7 +164,7 @@
       "50",
       "2020-02-04",
       "2020-02-06",
-      "澳門",
+      "義大利",
       "",
       "14"
     ],
@@ -173,7 +175,7 @@
       "40",
       "2020-02-05",
       "2020-02-06",
-      "義大利"
+      "澳門"
     ],
     [
       "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=CngpYj-4R7LFxtHUDUK5Vw",
@@ -193,7 +195,7 @@
       "20",
       "",
       "2020-02-09",
-      "",
+      "義大利",
       "",
       "14"
     ],
@@ -422,7 +424,9 @@
       "60",
       "2020-02-21",
       "2020-02-29",
-      "埃及,杜拜"
+      "埃及,杜拜",
+      "",
+      "39"
     ],
     [
       "https://www.cdc.gov.tw/Bulletin/Detail/9Kx1xyKUEh-NcuIk3Z8Hbg?typeid=9",
