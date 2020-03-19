@@ -9,9 +9,9 @@ curl -X GET \
 if [[ `git status --porcelain` ]]; then
     # Changes
     echo 'change'
+    git add -A;
+    git commit -m "${TS}";
+    git push origin master;
 fi
 
 
-# git add -A;
-# git commit -m "date +”%m-%d-%Y%H:%M:%S”";
-# git push origin $2
