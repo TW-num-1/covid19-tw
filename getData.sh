@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 TS=`date +"%m-%d-%Y-%H%M%S"`;
 
 git pull;
