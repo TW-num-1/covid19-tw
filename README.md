@@ -2,24 +2,26 @@ This is a crawler data of:
 https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit
 
 
-To run this script: 
+
+
+# USAGE: 
+# Run shell script: 
 
 ```
  . ./getData.sh {GOOGLE SHEET API KEY}
 ```
 
-USAGE: 
-#JSON 
+## JSON 
 ```
 https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json
 ```
-# CURL 
+## CURL 
 ```
 curl https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json
 
 ```
 
-CRON tab
+# CRON tab
 ```
 */4 * * * * cd /home/ubuntu/Project/covid19-tw/ && bash getData.sh {key} > /tmp/temp.log 2>&1
 
