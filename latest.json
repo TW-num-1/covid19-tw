@@ -1,5 +1,5 @@
 {
-  "range": "'確診病例'!A1:L399",
+  "range": "'確診病例'!A1:L556",
   "majorDimension": "ROWS",
   "values": [
     [
