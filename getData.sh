@@ -5,8 +5,8 @@ git pull;
 
 name=$(whoami)
 
-echo "The current useris $name";
-echo "Current timestamp: $TS";
+echo "* Current user is $name";
+echo "* Current timestamp: $TS";
 
 curl -X GET \
   "https://sheets.googleapis.com/v4/spreadsheets/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/values/%E7%A2%BA%E8%A8%BA%E7%97%85%E4%BE%8B!A1:M?majorDimension=ROWS&key=$1" \
@@ -14,12 +14,12 @@ curl -X GET \
 
 if [[ `git status --porcelain` ]]; then
     # Changes
-    echo "Data has updated - ts:$TS"
+    echo "*** Data has updated - ts:$TS"
     git add -A;
     git commit -m "${TS}";
     git push origin master;
 else 
-    echo 'Nothing to update!'
+    echo '*** Nothing to update!'
 fi
 
 
