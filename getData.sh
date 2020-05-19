@@ -14,12 +14,12 @@ curl -X GET \
 
 if [[ `git status --porcelain` ]]; then
     # Changes
-    echo 'change'
+    echo "Data has updated - ts:$TS"
     git add -A;
     git commit -m "${TS}";
     git push origin master;
 else 
-    echo 'Nothing to update'
+    echo 'Nothing to update!'
 fi
 
 
