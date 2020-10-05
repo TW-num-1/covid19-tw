@@ -1,0 +1,11 @@
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+* Current user is root
+* Current timestamp: 10-05-2020-035119
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  214k    0  214k    0     0   422k      0 --:--:-- --:--:-- --:--:--  422k
+*** Data has updated - ts:10-05-2020-035119
