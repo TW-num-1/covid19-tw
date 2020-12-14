@@ -1,7 +1,7 @@
 {
   "error": {
-    "code": 503,
-    "message": "The service is currently unavailable.",
-    "status": "UNAVAILABLE"
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
   }
 }
