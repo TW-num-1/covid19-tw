@@ -1,7 +1,7 @@
 {
   "error": {
-    "code": 500,
-    "message": "Internal error encountered.",
-    "status": "INTERNAL"
+    "code": 503,
+    "message": "The service is currently unavailable.",
+    "status": "UNAVAILABLE"
   }
 }
